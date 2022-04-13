@@ -1,6 +1,6 @@
 .headerContainer {
   height: 5rem;
-  border-bottom: 1px solid var(--grey-800);
+  border-bottom: 1px solid var(--gray-800);
 }
 
 .headerContent {
@@ -14,15 +14,14 @@
 
   nav {
     margin-left: 5rem;
-    height: 5rem; //this way the nav items occupate the intire height wich turns easyer to put the underline that shows the selected button
+    height: 5rem;
 
     a {
       display: inline-block;
       position: relative;
       padding: 0 0.5rem;
-      height: 5rem;
       line-height: 5rem;
-      color: var(--grey-300);
+      color: var(--gray-300);
 
       transition: color 0.2s;
 
@@ -40,7 +39,7 @@
       }
 
       &.active::after {
-        content: '';
+        content: "";
         height: 3px;
         border-radius: 3px 3px 0 0;
         width: 100%;
@@ -52,7 +51,7 @@
     }
   }
 
-  button {
+  > button {
     margin-left: auto;
   }
 }

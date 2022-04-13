@@ -2,7 +2,7 @@
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 2rem;
-  height: calc(100vh - 5rem); //discounts the header`s 5rem, this way the conntent remains centralized
+  height: calc(100vh - 5rem);
 
   display: flex;
   align-items: center;
@@ -29,10 +29,9 @@
   }
 
   p {
-    font-size: 1.5rem; //24px
-    line-height: 2.25rem; //36px
-    margin-top: 1.5rem; //24px
-
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-top: 1.5rem;
     span {
       color: var(--cyan-500);
       font-weight: bold;
@@ -40,6 +39,6 @@
   }
 
   button {
-    margin-top: 2.5rem; //40px
+    margin-top: 2.5rem;
   }
 }
